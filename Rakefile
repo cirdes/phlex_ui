@@ -2,6 +2,8 @@
 
 require 'bundler/gem_tasks'
 require 'rake/testtask'
+
+require 'active_support/all'
 # require "bundler/gem_tasks"
 # require "standard/rake"
 require "minitest/test_task"
