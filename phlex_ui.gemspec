@@ -20,9 +20,9 @@ Gem::Specification.new do |s|
   # When gem is installed from source, we add `ruby-next` as a dependency
   # to auto-transpile source files during the first load
   if File.directory?(File.join(__dir__, ".git"))
-    s.add_dependency "ruby-next", "~> 1.0"
+    s.add_runtime_dependency "ruby-next", "~> 1.0"
   else
-    s.add_dependency "ruby-next-core", "~> 1.0"
+    s.add_runtime_dependency "ruby-next-core", "~> 1.0"
   end
 
   s.add_development_dependency "rake"
