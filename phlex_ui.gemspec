@@ -15,7 +15,6 @@ Gem::Specification.new do |s|
   s.add_dependency "phlex", "~> 1.10"
   s.add_dependency "rouge", "~> 4.2.0"
   s.add_dependency "zeitwerk", "~> 2.6"
-  s.add_dependency "zeitwerk", "~> 2.6"
 
   # When gem is installed from source, we add `ruby-next` as a dependency
   # to auto-transpile source files during the first load
