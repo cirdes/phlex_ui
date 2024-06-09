@@ -4,9 +4,8 @@ require "bundler/gem_tasks"
 require "standard/rake"
 require "minitest/test_task"
 
-load "active_support/core_ext/object/blank"
-
 Minitest::TestTask.create(:test) do |t|
+  t.test_globs = ["test/phlex_ui/**/*_test.rb"]
   t.warning = false
 end
 
