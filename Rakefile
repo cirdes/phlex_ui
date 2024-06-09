@@ -8,4 +8,3 @@ Minitest::TestTask.create(:test) do |t|
 end
 
 task default: :test
-gc
